@@ -6,10 +6,9 @@
     </title>
 </head>
 <body>
-<?php
-echo "hello World";
-echo "Hello I create something good";
-echo "Saya Ganteng";
-?>
+    <h1>Welcome To Home</h1>
+    <form name="formToLink" action="about.php" method="post">
+        <input name="buttonHome" type="submit" value="Go To About"/>
+    </form>
 </body>
 </html>
